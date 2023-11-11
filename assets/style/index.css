@@ -116,6 +116,9 @@ input[type="password"]:focus + label, input[type="password"]:not(:placeholder-sh
 
 
 @media (max-width: 750px) {
+    .img-content{
+        height: 38vh;
+    }
     .radius{
         border-radius:  7px  7px 0 0 ;
     } 
