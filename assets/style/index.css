@@ -32,6 +32,10 @@ h2{
 .radius{
     border-radius: 7px 0 0 7px;
 }
+.radius-b{
+    border-radius: 0 7px 7px 0;
+}
+
 .edificio {
     position: absolute;
     bottom: 0;
@@ -43,6 +47,7 @@ h2{
 
 .logo-content{
     margin: 3% 0;
+    width: 100%;
 }
 
 
@@ -121,6 +126,10 @@ input[type="password"]:focus + label, input[type="password"]:not(:placeholder-sh
     }
     .radius{
         border-radius:  7px  7px 0 0 ;
+    } 
+
+    .radius-b{
+        border-radius:  0 0 7px  7px ;
     } 
     .body-login {
         width: 100%;
