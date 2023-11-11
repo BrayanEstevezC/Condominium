@@ -35,6 +35,10 @@
     z-index: 1;
 }
 
+.logo-content{
+    height: 35%;
+}
+
 @media (max-width: 750px) {
     .radius{
         border-radius:  7px  7px 0 0 ;
@@ -42,6 +46,16 @@
     .body-login {
         width: 100%;
     }
+    .logo-content{
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin: 2% 0;
+    }
+    
 }
 
 @media (max-width: 550px) {
