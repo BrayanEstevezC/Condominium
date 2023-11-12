@@ -111,7 +111,6 @@ input[type="password"]:focus + label, input[type="password"]:not(:placeholder-sh
     text-align: center;
     text-transform: uppercase;
     font-size: 14px;
-    transition: .3s;
     font-family: inherit;
     color: #652022;
     border-radius: 10px;

@@ -23,25 +23,56 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </div>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main class="bg-indentity">
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid ">
+                <img src="../assets/images/svg/Logo.svg" alt="Logo" class="d-inline-block mt-1" style="height: 2rem;">
 
+                <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+
+                    <ul class="navbar-nav align-items-center">
+
+                        <li class="nav-item">
+                            <input type="text" id="Email" placeholder="Email" class="txt">
+                        </li>
+
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-2"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item">
+                            <input type="password" id="password" placeholder="contraseña" class="txt">
+                        </li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="user-settings">
+
+                            <input type="button" value="Iniciar Sesión" class="boton p-2" id="login">
+
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-indentity">
+        <form action="" class="row justify-content-center body-identity light rounded-2">
+            <article class="row border-bottom border-secondary p-1">
+                <h4><b><span class="color-R">R</span>ecupera tu cuenta</b></h4>
+            </article>
+            <div class="row p-2 border-bottom border-secondary">
+                <p>Ingresa tu correo electronico para buscar tu cuenta</p>
+                <input type="text" id="correo" placeholder="Email" class="txt" style="width: 90%; margin: auto;">
+            </div>
+            <div class="row p-2 border-bottom border-secondary justify-content-end">
+                <input type="button" value="Cancelar" class="cancel p-2  m-1 text-center" id="cancelar" style="width: 20%; ">
+                <input type="button" value="Buscar"   class="boton p-2 m-1 text-center" id="buscar" style="width: 20%; ">
+            </div>
+        </form>
     </main>
 
 

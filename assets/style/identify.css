@@ -7,3 +7,44 @@
     align-items: center;
     flex-direction: column;
 }
+h4{
+    font-size: 2.1rem;
+}
+.txt{
+    padding: 2%;
+    border-radius: 5px;
+    border:solid 1px #652022;
+}
+.boton{
+    border: 1px solid #652022;
+    font-family: inherit;
+    background: #652022;
+    border-radius: 5px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.boton:hover{
+    background: #471819;
+}
+
+.cancel{
+    border: 1px solid #7b7676;
+    font-family: inherit;
+    background: #7b7676;
+    border-radius: 5px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.cancel:hover{
+    background: #545151;
+}
+
+
+.body-identity{
+    width: 35%;
+}
+@media (max-width: 750px) {
+    .body-identity{
+        width: 95%;
+    }
+}
