@@ -13,7 +13,11 @@
 }
 
 @media (max-width: 750px) {
+    #menu{
+        transform: scale(2);
+    }
     .menu{
         height: 2rem;
     }
+    
 }
