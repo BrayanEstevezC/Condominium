@@ -1,0 +1,19 @@
+.bg-main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/main/bg-main.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    height: 2.4rem;
+}
+
+@media (max-width: 750px) {
+    .menu{
+        height: 2rem;
+    }
+}
