@@ -39,6 +39,9 @@ h4{
     background: #545151;
 }
 
+#cancelar,#buscar{
+    width: 20%;
+}
 
 .body-identity{
     width: 35%;
@@ -46,5 +49,8 @@ h4{
 @media (max-width: 750px) {
     .body-identity{
         width: 95%;
+    }
+    #cancelar,#buscar{
+        width: 30%;
     }
 }
