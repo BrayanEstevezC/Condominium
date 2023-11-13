@@ -9,12 +9,17 @@ document.addEventListener("DOMContentLoaded", function () {
     var ubicacion = document.querySelector(".ubicacion");
     var mantenimiento = document.querySelector(".mantenimiento");
     var motor = document.querySelector(".motor");
+    var clasificacion = document.querySelector(".clasificacion");
+    var proveedores = document.querySelector(".proveedores");
+    var control = document.querySelector(".control");
+    var equipo = document.querySelector(".equipo");
+
 
 
     Menu.onclick = function () {
-        ColMenu.style.width = "16%";
+        ColMenu.style.width = "17%";
         hamburger.style.justifyContent = "end";
-        Content.style.width = "84%";
+        Content.style.width = "83%";
         Close.classList.remove("none");
         Menu.classList.add("none");
         Menu.classList.add("none");
@@ -22,6 +27,10 @@ document.addEventListener("DOMContentLoaded", function () {
         ubicacion.classList.remove("none");
         mantenimiento.classList.remove("none");
         motor.classList.remove("none");
+        clasificacion.classList.remove("none");
+        proveedores.classList.remove("none");
+        control.classList.remove("none");
+        equipo.classList.remove("none");
 
     };
     Close.onclick = function () {
@@ -34,5 +43,9 @@ document.addEventListener("DOMContentLoaded", function () {
         ubicacion.classList.add("none");
         mantenimiento.classList.add("none");
         motor.classList.add("none");
+        clasificacion.classList.add("none");
+        proveedores.classList.add("none");
+        control.classList.add("none");
+        equipo.classList.add("none");
     };
 });
