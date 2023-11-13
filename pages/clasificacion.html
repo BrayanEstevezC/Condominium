@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="../assets/style/main.css">
+    <link rel="stylesheet" href="../assets/style/pages.css">
+    <link rel="stylesheet" href="../assets/node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet">
+
+    <!--  Icon    -->
+    <link rel="Icon" href="../assets/images/svg/icon.svg">
+    <script src="https://kit.fontawesome.com/b0cb49c5f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light ">
+            <div class="container-fluid ">
+                <a href="main.html">
+                    <img src="../assets/images/svg/Logo.svg" alt="Logo" class="d-inline-block mt-1"
+                        style="height: 2.5rem;">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse  navbar-collapse justify-content-end text-center" id="navbarNav">
+                    <ul class="navbar-nav align-items-center" id="list">
+
+                        <li class="nav-item  row">
+                            <h5><b>Catálogos </b><img src="../assets/images/svg/Book-solid.svg" alt="Icon-Catalogo"
+                                    class="icon-modules"></h5>
+                        </li>
+
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-2"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <a href="" class="color-R t-none">
+                                <h6><b>Ubicación </b><img src="../assets/images/svg/location-dot-solid.svg"
+                                        alt="Icon-Catalogo" class="icon-modules"></h6>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <a href="" class="color-R t-none">
+                                <h6><b>Mantenimiento </b><img src="../assets/images/svg/tools.svg" alt="Icon-Catalogo"
+                                        class="icon-modules"></h6>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <a href="" class="color-R t-none">
+                                <h6><b>Tipo motor </b><img src="../assets/images/svg/gear.svg" alt="Icon-Catalogo"
+                                        class="icon-modules"></h6>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <a href="" class="color-R t-none">
+                                <h6><b>Clasificación equipo </b><img src="../assets/images/svg/List.svg"
+                                        alt="Icon-Catalogo" class="icon-modules"></h6>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <a href="" class="color-R t-none">
+                                <h6><b>Proveedores </b><img src="../assets/images/svg/users.svg" alt="Icon-Catalogo"
+                                        class="icon-modules"></h6>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <h5><b>Control equipos </b><img src="../assets/images/svg/check.svg" alt="Icon-Catalogo"
+                                    class="icon-modules"></h5>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                        <li class="nav-item row">
+                            <a href="" class="color-R t-none">
+                                <h6><b>Equipos </b><img src="../assets/images/svg/Extintor.svg" alt="Icon-Catalogo"
+                                        class="icon-modules"></h6>
+                            </a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+                        <li class="nav-item p-3"></li>
+                        <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <article class="row">
+            <section class="bg-light flex-column" id="col-menu">
+                <div class="mt-3 hamburger" id="hamburger">
+                    <img src="../assets/images/svg/bars-solid.svg" alt="Menu" class="menu" id="menu">
+                    <img src="../assets/images/svg/x-solid.svg" alt="" class="close none" id="close">
+                </div>
+                <div class="row icons align-items-start justify-content-center">
+
+                    <!-- Catálogos -->
+                    <div class="row mt-4 flex-column border-dark justify-content-center">
+
+                        <div class="row">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/Book-solid.svg" alt="Icon-Catalogo" class="icon-modules">
+                            </div>
+                            <div class="col-md-8 none catalogos ">
+                                <h5><b>Catálogos</b></h5>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ubi ">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/location-dot-solid.svg" alt="Icon-Ubicacion"
+                                    class="icon-modules"></div>
+                            <div class="col-md-8 none ubicacion ">
+                                <a href="" class="color-R t-none">
+                                    <h6>Ubicacion</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ubi ">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/tools.svg" alt="Icon-Mantenimiento" class="icon-modules">
+                            </div>
+                            <div class="col-md-8 none mantenimiento ">
+                                <a href="" class="color-R t-none">
+                                    <h6>Mantenimiento</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ubi ">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/gear.svg" alt="Icon-Motor" class="icon-modules"></div>
+                            <div class="col-md-8 none motor ">
+                                <a href="" class="color-R t-none">
+                                    <h6>Tipo motor</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ubi ">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/List.svg" class="icon-modules">
+                            </div>
+                            <div class="col-md-8 none clasificacion ">
+                                <a href="" class="color-R t-none">
+                                    <h6>Clasificación equipos</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ubi ">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/users.svg" alt="Icon-Clasificacion" class="icon-modules">
+                            </div>
+                            <div class="col-md-8 none proveedores ">
+                                <a href="" class="color-R t-none">
+                                    <h6>Proveedores</h6>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/check.svg" alt="Icon-Catalogo" class="icon-modules">
+                            </div>
+                            <div class="col-md-8 none control ">
+                                <h5><b>Control equipos</b></h5>
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ubi ">
+                            <div class="col-md-4 d-flex justify-content-center align-items-center"><img
+                                    src="../assets/images/svg/Extintor.svg" alt="Icon-Clasificacion"
+                                    class="icon-modules">
+                            </div>
+                            <div class="col-md-8 none equipo ">
+                                <a href="" class="color-R t-none">
+                                    <h6>Equipos</h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section id="content">
+
+                <div class="row ">
+                    <div class="col-6 col-md-4 border border-dark text-center">
+                        <div class="row">
+                            <h3 class="pt-2"><span class="color-R">C</span>lasificación <img
+                                    src="../assets/images/svg/down.svg" alt="" class="down"></h3>
+                        </div>
+                        <div class="row bg-Reforma justify-content-center text-light form-body">
+                            <h4> Registrar una clasificacion de equipos</h4>
+
+                            <div class="row mt-3 d-flex justify-content-center">
+                                <label for="">Nombre</label>
+                                <input type="text" class="txt" placeholder=" " style="padding: 1%;">
+                            </div>
+
+                            <div class="row mt-2 d-flex justify-content-center">
+                                <label for="">Marca</label>
+                                <select name="options" class="txt" id="cars">
+                                    <option value="volvo">Opcion1</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </div>
+
+                            <div class="row mt-2 d-flex justify-content-center">
+                                <label for="">Periodos de mantenimiento</label>
+                                <select name="options" class="txt" id="cars">
+                                    <option value="volvo">Opcion1</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="mercedes">Mercedes</option>
+                                    <option value="audi">Audi</option>
+                                </select>
+                            </div>
+
+                            <div class="row mt-2 d-flex justify-content-center">
+                                <label for="">Función</label>
+                                <input type="text" class="txt" placeholder=" " style="padding: 1%;">
+                            </div>
+
+                            <div class="row mt-2 d-flex justify-content-center">
+                                <label for="">Capacidad</label>
+                                <div class="col">
+                                    <input type="text" class="txt" placeholder=" " style="padding: 1%;">
+                                </div>
+                                <div class="col">
+                                    <select name="options" class="txt" id="cars">
+                                        <option value="volvo">Opcion1</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mt-2 d-flex justify-content-center">
+                                <input type="button" value="Agregar" class="boton">
+                            </div>
+                            
+                            <div class="row bg-light border border-dark text-dark">
+                                <h3 class="pt-2"><span class="color-R">C</span>lasificación <img
+                                        src="../assets/images/svg/down.svg" alt="" class="down"></h3>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="col-6 col-md-8"></div>
+                </div>
+
+                <div class="row border border-dark rounded-3 text-center mt-2">
+                    <h1><b><span class="color-R">C</span>lasificación de equipos</b></h1>
+                </div>
+                <div class="row  tabla2  p-3 ">
+                    <table class="text-center">
+                        <thead>
+                            <tr class="border-R text-center">
+                                <th class="border-R">Tipo</th>
+                                <th class="border-R">Función</th>
+                                <th class="border-R">Marcar</th>
+                                <th class="border-R">Periodo</th>
+                                <th class="border-R">Tipo motor</th>
+                                <th class="border-R">Capacidad</th>
+                                <th class="border-R">Estdado del registro</th>
+                                <th class="border-R">Editar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="border-R">Bomba horizontal</td>
+                                <td class="border-R"> Bombas para el filtro de tratamiento de agua.</td>
+                                <td class="border-R"> WEG</td>
+                                <td class="border-R"> Anual</td>
+                                <td class="border-R"> Trifasica</td>
+                                <td class="border-R"> 1.5 HP</td>
+                                <td class="border-R">
+                                    <label class="toggle-switch ">
+                                        <input type="checkbox">
+                                        <div class="toggle-switch-background">
+                                            <div class="toggle-switch-handle"></div>
+                                        </div>
+                                    </label>
+                                </td>
+                                <td class="border-R">
+                                    <input type="button" value="Seleccionar" class="boton">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+
+        </article>
+    </main>
+
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>

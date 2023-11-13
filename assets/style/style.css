@@ -24,6 +24,10 @@ main {
     text-decoration: none;
 }
 
+.border-R{
+    border: #652022 solid 2px;
+}
+
 .fade-in-container {
     opacity: 0;
     animation: fade-in-animation 2.5s ease-in-out forwards;
