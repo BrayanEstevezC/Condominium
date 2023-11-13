@@ -14,6 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var control = document.querySelector(".control");
     var equipo = document.querySelector(".equipo");
 
+    var up = document.getElementById("up");
+    var down = document.getElementById("down");
+    var body = document.querySelector(".form-body");
+    var fTitle = document.querySelector(".form-title");
 
 
     Menu.onclick = function () {
@@ -48,4 +52,14 @@ document.addEventListener("DOMContentLoaded", function () {
         control.classList.add("none");
         equipo.classList.add("none");
     };
+
+    down.onclick = function () {
+        fTitle.classList.add("d-none");
+        body.classList.remove("d-none");
+        body.classList.add("transfor");
+    }
+    up.onclick = function () {
+        fTitle.classList.remove("d-none");
+        body.classList.add("d-none");
+    }
 });
