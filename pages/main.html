@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,67 +19,65 @@
     <link rel="Icon" href="../assets/images/svg/icon.svg">
     <script src="https://kit.fontawesome.com/b0cb49c5f4.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
     <header>
         <nav class="navbar navbar-expand-lg bg-light ">
             <div class="container-fluid ">
-                <img src="../assets/images/svg/Logo.svg" alt="Logo" class="d-inline-block mt-1" style="height: 2rem;">
+                <a href="main.html">
+                    <img src="../assets/images/svg/Logo.svg" alt="Logo" class="d-inline-block mt-1"
+                        style="height: 2.5rem;">
+                </a>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
-
                     <ul class="navbar-nav align-items-center">
 
-                        <li class="nav-item">
-                            <!-- <input type="text" id="Email" placeholder="Email" class="txt"> -->
-                        </li>
+                        <li class="nav-item"></li>
 
                         <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
                         <li class="nav-item p-2"></li>
                         <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
 
-                        <li class="nav-item">
-                            <!-- <input type="password" id="password" placeholder="contraseña" class="txt"> -->
-                        </li>
+                        <li class="nav-item"></li>
                         <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
                         <li class="nav-item p-3"></li>
                         <!-- !!!!!!!!!!!!!!!!!!!!!!!! -->
 
                         <li class="user-settings">
 
-                            <!-- <input type="button" value="Iniciar Sesión" class="boton p-2" id="login"> -->
-
                         </li>
 
                     </ul>
-
                 </div>
+
             </div>
         </nav>
     </header>
-    
-    <main class="container-fluid">
-        <article class="row border border-primary">
-            <section class="col-1 border border-danger">
-                <div class="row justify-content-between">
-                    <div class="col-12 col-md-7  border border-dark"></div>
-                    <div class="col-12 col-md-5 text-center d-flex justify-content-center">
-                    <img src="../assets/images/svg/bars-solid.svg" alt="" class="menu" id="menu">
-                    </div>
+
+    <main class="container-fluid bg-main">
+        <article class="row">
+            <section class="bg-light flex-column" id="col-menu">
+                <div class="mt-3 hamburger" id="hamburger">
+                    <img src="../assets/images/svg/bars-solid.svg" alt="Menu" class="menu" id="menu">
+                    <img src="../assets/images/svg/x-solid.svg" alt="" class="close none" id="close">
+                </div>
+                <div class="row border icons bg-dark">
+                    <p>hfghfh</p>
                 </div>
             </section>
-            <section class="col-11 bg-main border border-success"></section>
+
+            <section id="content"></section>
+           
         </article>
-        <!-- <article class="row border border-primary">
-            <section class="col-1 border border-danger d-flex justify-content-end" id="col-menu" style="height: 100vh;">
-                <div class="row border" style="width: 100%;">
-                    <img src="../assets/images/svg/x-solid.svg" alt="" class="menu none" id="close">
-                </div>
-            </section>
-            <section class="col-11 bg-main" id="content"></section>
-        </article> -->
     </main>
 
     <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.js"></script>
     <script src="../assets/js/script.js"></script>
 </body>
+
 </html>

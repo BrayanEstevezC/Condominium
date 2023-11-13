@@ -2,23 +2,47 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/main/bg-main.jpg');
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     height: 100vh;
 }
 
 .menu{
     height: 2.4rem;
 }
+.close{
+    height: 1.8rem;
+}
 
-@media (max-width: 750px) {
-    #menu{
-        /* transform: scale(2.3); */
-    }
+#col-menu{
+    width: 5%;
+    margin: auto;
+    height: 100vh;
+}
+#content{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+}
+.hamburger{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    height: 95%;
+}
+
+@media (max-width: 1025px) {
+    /* #menu{
+        transform: scale(2.3);
+    } */
     .menu{
         height: 2rem;
+    }
+    #col-menu{
+        display: none;
+    }
+    #content{
+        width: 100%;
+        margin: auto;
     }
     
 }

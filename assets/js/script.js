@@ -1,28 +1,27 @@
 document.addEventListener("DOMContentLoaded", function() {
-    
+
     var Menu = document.getElementById("menu");
     var ColMenu = document.getElementById("col-menu");
     var Content = document.getElementById("content");
     var Close = document.getElementById("close");
-    
+    var hamburger = document.getElementById("hamburger");
 
+    
     Menu.onclick = function() {
-        console.log("Hola mundo");  
-        ColMenu.classList.remove("col-1");
-        Content.classList.remove("col-11");
-        ColMenu.classList.add("col-2");
-        Content.classList.add("col-10");
-        Menu.classList.add("none");
+        ColMenu.style.width= "10%";
+        hamburger.style.justifyContent = "end";
+        Content.style.width= "90%";
+        console.log("Hola");
         Close.classList.remove("none");
+        Menu.classList.add("none");
+
     };
     Close.onclick = function() {
-        console.log("Adios mundo");  
-        ColMenu.classList.add("col-1");
-        Content.classList.add("col-11");
-        ColMenu.classList.remove("col-2");
-        Content.classList.remove("col-10");
-        Menu.classList.remove("none");
+        ColMenu.style.width= "5%";
+        hamburger.style.justifyContent = "center";
+        Content.style.width= "95%";
+        console.log("adios");
         Close.classList.add("none");
+        Menu.classList.remove("none");
     };
   });
-  
