@@ -20,7 +20,9 @@ main {
 .color-R{
     color: #652022;
 }
-
+.t-none{
+    text-decoration: none;
+}
 
 .fade-in-container {
     opacity: 0;

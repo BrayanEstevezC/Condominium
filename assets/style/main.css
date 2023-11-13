@@ -9,10 +9,18 @@
     height: 2.4rem;
 }
 .close{
-    height: 1.8rem;
+    height: 2rem;
+}
+.icon-modules{
+    height: 1.9rem;
 }
 
-
+.ubi:hover{
+    color:#291213;
+    text-decoration: underline;
+    font-weight: bold;
+    transform: scale(1.1);
+}
 #col-menu{
     width: 5%;
     margin: auto;
