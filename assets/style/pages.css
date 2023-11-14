@@ -27,6 +27,14 @@
   max-height: 20vh;
 }
 
+th {
+  background: #652022;
+  color: aliceblue;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 .tabla2 {
   overflow: auto;
   max-height: 35vh;
@@ -47,7 +55,7 @@
 
 .form{
   width: 100%;
-  height: 5.5%;
+  height: 6%;
   
   z-index: 99;
   /* Añadido un margen para el contenido debajo */
@@ -82,7 +90,6 @@
   z-index: 2;
   transition: all 0.5s ease-out;
   overflow: hidden;
-  height: 100vh;
 }
 
 
