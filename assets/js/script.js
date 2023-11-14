@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function () {
         proveedores.classList.remove("none");
         control.classList.remove("none");
         equipo.classList.remove("none");
+        Content.classList.add("dark");
+
 
     };
     Close.onclick = function () {
@@ -54,6 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
         proveedores.classList.add("none");
         control.classList.add("none");
         equipo.classList.add("none");
+        Content.classList.remove("dark");
+
+
+
     };
 
     down.onclick = function () {
