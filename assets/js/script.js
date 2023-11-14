@@ -53,8 +53,10 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     down.onclick = function () {
-        console.log("Activado")
+        
+        form.classList.toggle('expanded');
     }
     up.onclick = function () {
+        console.log("Activado");
     }
 });

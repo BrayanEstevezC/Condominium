@@ -35,17 +35,26 @@
 .down {
   height: 2.6rem;
 }
-
-.form {
-  width: 100%;
-  height: 6vh;
+#form{
   box-sizing: border-box;
   position: absolute;
-  transition: all 0.5s ease-out;
   overflow: hidden;
+
+}
+.form {
+  width: 100%;
+  height: 5.5%;
+  
   z-index: 99;
   /* Añadido un margen para el contenido debajo */
 }
+
+#form.expanded {
+  animation: growAndFade 0.5s ease-out;
+  height: auto;
+  
+}
+
 #form-body{
   background: #652022;
 }
@@ -55,6 +64,8 @@
   top: 6vh;
   width: 100%;
   z-index: 2;
+  transition: all 0.5s ease-out;
+  overflow: hidden;
 }
 
 #text{
@@ -77,13 +88,34 @@
   #form {
     width: 100%;
     position:static;
+    height: 5vh;
   }
   .context{
     top: 6vh;
   }
 }
 
+@keyframes growAndFade {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: 100%;
+    opacity: 1;
+  }
+}
 
+@keyframes growAndFadeUp {
+  from {
+    height: 100%;
+    opacity: 0;
+  }
+  to {
+    height: 0;
+    opacity: 1;
+  }
+}
 
 
 
