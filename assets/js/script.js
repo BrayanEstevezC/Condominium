@@ -18,6 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
     var down = document.getElementById("down");
     var form = document.getElementById("form");
 
+    var up1 = document.getElementById("up1");
+    var down1 = document.getElementById("down1");
+    var form1 = document.getElementById("form1");
+
 
     Menu.onclick = function () {
         ColMenu.style.width = "17%";
@@ -64,5 +68,16 @@ document.addEventListener("DOMContentLoaded", function () {
         form.classList.add('contract');
         down.classList.remove('d-none');
         up.classList.add('d-none');
+    }
+
+    down1.onclick = function () {
+        form1.classList.remove('expanded');
+        down1.classList.add('d-none');
+        up1.classList.remove('d-none');
+    }
+    up1.onclick = function () {
+        form1.classList.add('expanded');
+        down1.classList.remove('d-none');
+        up1.classList.add('d-none');
     }
 });
