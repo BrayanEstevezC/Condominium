@@ -54,9 +54,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     down.onclick = function () {
         
-        form.classList.toggle('expanded');
+        form.classList.add('expanded');
+        form.classList.remove('contract');
+        up.classList.remove('d-none');
+        down.classList.add('d-none');
     }
     up.onclick = function () {
-        console.log("Activado");
+        form.classList.remove('expanded');
+        form.classList.add('contract');
+        down.classList.remove('d-none');
+        up.classList.add('d-none');
     }
 });

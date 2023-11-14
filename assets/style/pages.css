@@ -52,7 +52,11 @@
 #form.expanded {
   animation: growAndFade 0.5s ease-out;
   height: auto;
-  
+}
+
+#form.contract {
+  animation: growAndFadeUp 0.5s ease-out;
+  height: 5.5%;
 }
 
 #form-body{
