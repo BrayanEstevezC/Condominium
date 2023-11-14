@@ -16,8 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var up = document.getElementById("up");
     var down = document.getElementById("down");
-    var body = document.querySelector(".form-body");
-    var fTitle = document.querySelector(".form-title");
+    var form = document.getElementById("form");
 
 
     Menu.onclick = function () {
@@ -54,12 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     down.onclick = function () {
-        fTitle.classList.add("d-none");
-        body.classList.remove("d-none");
-        body.classList.add("transfor");
+        console.log("Activado")
     }
     up.onclick = function () {
-        fTitle.classList.remove("d-none");
-        body.classList.add("d-none");
     }
 });
