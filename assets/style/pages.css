@@ -33,7 +33,7 @@ th {
   color: aliceblue;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 0;
 }
 
 .tabla2 {
@@ -58,29 +58,32 @@ th {
   width: 100%;
   height: 6%;
   
-  z-index: 99;
+  z-index: 2;
   /* Añadido un margen para el contenido debajo */
 }
 
 #form.expanded  {
-  animation: growAndFade 0.5s ease-out;
+  animation: growAndFade 0.3s ease-out;
   height: auto;
 }
-#form1.expanded  {
-  animation: growAndFade 0.5s ease-out;
+#fBody.expand  {
+  animation: growAndFade 0.3s ease-out;
   height: auto;
 }
-.contract {
+#form.contract {
   animation: growAndFadeUp 0.5s ease-out;
   height: 5.5%;
 }
 
-.contract1 {
+#fBody.contract {
   animation: growAndFadeUp 0.5s ease-out;
-  height: 5vh;
+  height: 0;
 }
-
-#form-body,#form-body1{
+#fBody{
+  height: 0;
+  background: #652022;
+}
+#form-body{
   background: #652022;
 }
 .context {
@@ -88,7 +91,7 @@ th {
   position: absolute;
   top: 6vh;
   width: 100%;
-  z-index: 2;
+  z-index: 1;
   transition: all 0.5s ease-out;
   overflow: hidden;
 }
@@ -113,7 +116,6 @@ th {
 @media (max-width: 1000px) {
   #form {
     width: 100%;
-    position:static;
     height: 5vh;
   }
   .context{

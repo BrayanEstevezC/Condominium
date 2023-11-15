@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var up1 = document.getElementById("up1");
     var down1 = document.getElementById("down1");
-    var form1 = document.getElementById("form1");
+    var body = document.getElementById("fBody");
 
 
     Menu.onclick = function () {
@@ -77,13 +77,16 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     down1.onclick = function () {
-        form1.classList.remove('expanded');
+        body.classList.remove('expand');
+        body.classList.add('contract');
         down1.classList.add('d-none');
         up1.classList.remove('d-none');
     }
     up1.onclick = function () {
-        form1.classList.add('expanded');
+        body.classList.remove('contract');
+        body.classList.add('expand');
         down1.classList.remove('d-none');
         up1.classList.add('d-none');
+        console.log("Hola");
     }
 });
